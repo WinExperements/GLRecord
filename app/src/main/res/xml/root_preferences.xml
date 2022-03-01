@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="General">
+
+    </PreferenceCategory>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="startSettings"
+        android:title="Start Settings at startup" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="startCapture"
+        android:title="Start Capture Framework at app start" />
+    <PreferenceCategory android:title="About">
+
+    </PreferenceCategory>
+</PreferenceScreen>
